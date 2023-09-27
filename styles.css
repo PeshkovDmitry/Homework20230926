@@ -6,6 +6,11 @@ a {
     color: cornflowerblue;
     font-size: 16px;
     line-height: 20px;
+    background-color: aqua;
+    margin: 10px;
+    padding: 10px;
+    border: #222222 solid 1px;
+    border-radius: 10px;
 }
 
 .header1 {
@@ -13,6 +18,10 @@ a {
     font-size: 28px;
     line-height: 36px;
     font-weight: bold;
+    border: #222222 solid 1px;
+    border-radius: 10px;
+    text-align: center;
+    background-color: aqua;
 }
 
 .text {
@@ -29,4 +38,32 @@ a {
     font-weight: 700;
     font-size: 36px;
     line-height: 80px;
+    border: #222222 solid 1px;
+    border-radius: 10px;
+    text-align: center;
+    background-color: aqua;
+}
+
+/* Классы вне домашнего задания */
+
+.menu {
+    margin-top: 25px;
+    background-color:blue;
+    border-radius: 10px;
+    text-align: center;
+}   
+
+.catalog {
+    border-radius: 10px;
+    border: #222222 solid 1px;
+    padding: 20px;
+}
+
+.catalog_item {
+    display: flex;
+}
+
+.picture {
+    border-radius: 10px;
+    margin: 10px;
 }
